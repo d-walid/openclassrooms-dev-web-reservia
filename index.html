@@ -5,15 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/index.css" />
-    <title>Réservia - Page d'accueil</title>
+    <script
+      src="https://kit.fontawesome.com/1d997a59e2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Réservia</title>
   </head>
   <header>
-    <p>Header</p>
+    <div class="header-container">
+      <div class="logo-reservia">
+        <img src="assets/logo/Reservia@3x.png" alt="Logo Réservia" />
+      </div>
+      <div class="nav-container">
+        <div id="nav-hébergements">
+          <a href="#">Hébergements</a>
+        </div>
+        <div id="nav-activités">
+          <a href="#">Activités</a>
+        </div>
+        <div id="nav-inscription">
+          <a href="#">S'inscrire</a>
+        </div>
+      </div>
+    </div>
   </header>
   <body>
-    <p>Body</p>
+    <div class="title-container">
+      <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
+      <p>En plein centre ville ou en pleine nature</p>
+    </div>
+    <div class="search-container">
+      <i class="fas fa-map-marker-alt">
+        <input id="search-city" placeholder="Marseille, France" />
+        <button class="search-button">Rechercher</button>
+      </i>
+    </div>
+    <div class="filter-container">
+      <h4>Filtres</h4>
+      <div class="filter-list">
+        <div id="filter-economy">
+          <i class="fas fa-money-bill-wave"></i>
+          <b>Économique</b>
+        </div>
+        <div id="filter-family">
+          <i class="fas fa-child"></i>
+          <b>Familial</b>
+        </div>
+        <div id="filter-love">
+          <i class="fas fa-heart"></i>
+          <b>Romantique</b>
+        </div>
+        <div id="filter-animals">
+          <i class="fas fa-dog"></i>
+          <b>Animaux autorisés</b>
+        </div>
+      </div>
+    </div>
+    <div class="amount-informations">
+      <i class="fas fa-info"></i>
+      Plus de 500 logements sont disponibles dans cette ville
+    </div>
   </body>
-  <footer>
-    <p>Footer</p>
-  </footer>
+  <footer></footer>
 </html>
