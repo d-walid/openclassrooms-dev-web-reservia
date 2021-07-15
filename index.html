@@ -15,18 +15,18 @@
     <!-- HEADER-->
     <header>
       <nav>
-        <div class="header-container">
+        <div class="flex-between">
           <div class="logo-reservia">
             <img src="assets/logo/Reservia@3x.png" alt="Logo Réservia" />
           </div>
-          <div class="nav-container nav-links">
-            <div class="nav-link nav-link-container nav-border">
+          <div class="flex-around nav-links">
+            <div class="nav-link flex-center nav-border">
               <a id="accomodation-link" href="#hebergements">Hébergements</a>
             </div>
-            <div class="nav-link nav-link-container">
+            <div class="nav-link flex-center">
               <a id="activities-link" href="#activites">Activités</a>
             </div>
-            <div class="nav-link nav-link-container">
+            <div class="nav-link flex-center">
               <a id="register-link" href="#">S'inscrire</a>
             </div>
           </div>
@@ -39,11 +39,14 @@
       <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
       <p>En plein centre ville ou en pleine nature</p>
     </div>
-    <div class="search-container">
-      <i class="fas fa-map-marker-alt">
-        <input id="search-city" placeholder="Marseille, France" />
-        <button class="search-button">Rechercher</button>
-      </i>
+    <div class="flex-center search-container">
+      <div class="icon-size">
+        <i class="fas fa-map-marker-alt"></i>
+      </div>
+      <div class="search-input-container">
+        <input type="search" placeholder="Marseille, France" />
+      </div>
+      <div class="search">Rechercher</div>
     </div>
 
     <!-- FILTERS -->
