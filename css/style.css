@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 * {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   margin: 0;
 }
 
@@ -113,7 +113,7 @@ nav {
 .search {
   cursor: pointer;
   height: 5vh;
-  width: 13vh;
+  width: 16vh;
   color: white;
   font-weight: bold;
   border-radius: 0px 15px 15px 0px;
@@ -131,16 +131,16 @@ nav {
 }
 
 .filter-margin {
-  margin: 40px 0px 40px 0px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .filter-icon {
   width: 5vh;
   height: 5vh;
-  border-radius: 25px;
+  border-radius: 35px;
   color: #0065fc;
   background-color: #deebff;
-  margin-left: -5px;
 }
 
 .filter-text-icon:hover > .filter-icon {
@@ -168,9 +168,92 @@ nav {
   border-radius: 30px;
 }
 
-/* SECTION CSS */
+/* INFORMATIONS CSS */
 
-/* ASIDE CSS */
+.informations {
+  display: flex;
+  align-items: center;
+}
+
+.icon-informations {
+  color: #0065fc;
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+  border: 2px solid #f2f2f2;
+}
+
+/* ACCOMODATIONS CSS */
+
+.accomodations-marseille {
+  flex: 2;
+  height: 90vh;
+  margin-right: 2vh;
+  border-radius: 10px;
+}
+
+.most-popular-marseille {
+  flex: 1;
+  height: 90vh;
+  margin-left: 2vh;
+  border-radius: 10px;
+}
+
+/* ACCOMODATIONS IMAGES PROPERTIES */
+
+.img-auberge-cannebiere {
+  background-image: url('../assets/hebergements-marseille/auberge-la-cannebiere.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 12vh;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.img-hotel-du-port {
+  background-image: url('../assets/hebergements-marseille/hotel-du-port.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 12vh;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.img-hotel-les-mouettes {
+  background-image: url('../assets/hebergements-marseille/hotel-les-mouettes.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 12vh;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.img-hotel-la-mer {
+  background-image: url('../assets/hebergements-marseille/hotel-la-mer.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 12vh;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.img-auberge-panier {
+  background-image: url('../assets/hebergements-marseille/auberge-le-panier.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 12vh;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.img-hotel-amina {
+  background-image: url('../assets/hebergements-marseille/hotel-chez-amina.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 12vh;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
 
 /* ACTIVITIES CSS */
 
