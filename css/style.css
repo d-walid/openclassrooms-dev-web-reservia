@@ -227,11 +227,29 @@ nav {
   width: 90%;
 }
 
+/* MOST POPULAR CSS */
+
 .most-popular-marseille {
   flex: 1;
   height: 85vh;
   margin-left: 2vh;
   border-radius: 10px;
+}
+
+.most-popular-block {
+  padding: 0px 20px 0px 20px;
+}
+
+.most-popular {
+  background-color: white;
+  padding: 1% 0% 1% 1%;
+  border-radius: 20px;
+  height: auto;
+}
+
+.most-popular-desc {
+  width: 60%;
+  padding-left: 5%;
 }
 
 /* ACCOMODATIONS IMAGES PROPERTIES */
@@ -288,6 +306,35 @@ nav {
   height: 15vh;
   width: 100%;
   border-radius: 20px 20px 0px 0px;
+}
+
+/* MOST POPULAR IMAGES PROPERTIES */
+
+.img-hotel-soleil-matin {
+  background-image: url('../assets/les-plus-populaires/hotel-soleil-du-matin.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 15vh;
+  width: 35%;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.img-hotes-coeur-eau {
+  background-image: url('../assets/les-plus-populaires/hotes-au-coeur-de-leau.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 15vh;
+  width: 35%;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.img-hotel-bleu-blanc {
+  background-image: url('../assets/les-plus-populaires/hotel-tout-bleu-et-blanc.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 15vh;
+  width: 35%;
+  border-radius: 15px 0px 0px 15px;
 }
 
 /* ACTIVITIES CSS */
