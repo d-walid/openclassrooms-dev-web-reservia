@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
 * {
-  font-family: 'Raleway', sans-serif;
-  margin: 0;
+  font-family: "Raleway", sans-serif;
 }
 
 /* GENERAL COLORS */
@@ -237,7 +236,12 @@ nav {
 }
 
 .most-popular-block {
-  padding: 0px 20px 0px 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.most-popular-blocks {
+  padding-top: 50px;
 }
 
 .most-popular {
@@ -247,15 +251,19 @@ nav {
   height: auto;
 }
 
+.most-popular-first-two {
+  margin-bottom: 20px;
+}
+
 .most-popular-desc {
   width: 60%;
-  padding-left: 5%;
+  padding-left: 10%;
 }
 
 /* ACCOMODATIONS IMAGES PROPERTIES */
 
 .img-auberge-cannebiere {
-  background-image: url('../assets/hebergements-marseille/auberge-la-cannebiere.jpg');
+  background-image: url("../assets/hebergements-marseille/auberge-la-cannebiere.jpg");
   background-size: cover;
   background-position: center;
   height: 15vh;
@@ -264,7 +272,7 @@ nav {
 }
 
 .img-hotel-du-port {
-  background-image: url('../assets/hebergements-marseille/hotel-du-port.jpg');
+  background-image: url("../assets/hebergements-marseille/hotel-du-port.jpg");
   background-size: cover;
   background-position: center;
   height: 15vh;
@@ -273,7 +281,7 @@ nav {
 }
 
 .img-hotel-les-mouettes {
-  background-image: url('../assets/hebergements-marseille/hotel-les-mouettes.jpg');
+  background-image: url("../assets/hebergements-marseille/hotel-les-mouettes.jpg");
   background-size: cover;
   background-position: center;
   height: 15vh;
@@ -282,7 +290,7 @@ nav {
 }
 
 .img-hotel-la-mer {
-  background-image: url('../assets/hebergements-marseille/hotel-la-mer.jpg');
+  background-image: url("../assets/hebergements-marseille/hotel-la-mer.jpg");
   background-size: cover;
   background-position: center;
   height: 15vh;
@@ -291,7 +299,7 @@ nav {
 }
 
 .img-auberge-panier {
-  background-image: url('../assets/hebergements-marseille/auberge-le-panier.jpg');
+  background-image: url("../assets/hebergements-marseille/auberge-le-panier.jpg");
   background-size: cover;
   background-position: center;
   height: 15vh;
@@ -300,7 +308,7 @@ nav {
 }
 
 .img-hotel-amina {
-  background-image: url('../assets/hebergements-marseille/hotel-chez-amina.jpg');
+  background-image: url("../assets/hebergements-marseille/hotel-chez-amina.jpg");
   background-size: cover;
   background-position: center;
   height: 15vh;
@@ -311,29 +319,29 @@ nav {
 /* MOST POPULAR IMAGES PROPERTIES */
 
 .img-hotel-soleil-matin {
-  background-image: url('../assets/les-plus-populaires/hotel-soleil-du-matin.jpg');
+  background-image: url("../assets/les-plus-populaires/hotel-soleil-du-matin.jpg");
   background-size: cover;
   background-position: center;
-  height: 15vh;
-  width: 35%;
+  height: 20vh;
+  width: 30%;
   border-radius: 15px 0px 0px 15px;
 }
 
 .img-hotes-coeur-eau {
-  background-image: url('../assets/les-plus-populaires/hotes-au-coeur-de-leau.jpg');
+  background-image: url("../assets/les-plus-populaires/hotes-au-coeur-de-leau.jpg");
   background-size: cover;
   background-position: center;
-  height: 15vh;
-  width: 35%;
+  height: 20vh;
+  width: 30%;
   border-radius: 15px 0px 0px 15px;
 }
 
 .img-hotel-bleu-blanc {
-  background-image: url('../assets/les-plus-populaires/hotel-tout-bleu-et-blanc.jpg');
+  background-image: url("../assets/les-plus-populaires/hotel-tout-bleu-et-blanc.jpg");
   background-size: cover;
   background-position: center;
-  height: 15vh;
-  width: 35%;
+  height: 20vh;
+  width: 30%;
   border-radius: 15px 0px 0px 15px;
 }
 
