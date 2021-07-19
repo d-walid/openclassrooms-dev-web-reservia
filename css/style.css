@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 * {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 /* GENERAL COLORS */
@@ -240,7 +240,7 @@ nav {
 }
 
 .most-popular-blocks {
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 .most-popular {
@@ -262,7 +262,7 @@ nav {
 /* ACCOMODATIONS IMAGES PROPERTIES */
 
 .img-auberge-cannebiere {
-  background-image: url("../assets/hebergements-marseille/auberge-la-cannebiere.jpg");
+  background-image: url('../assets/hebergements-marseille/auberge-la-cannebiere.jpg');
   background-size: cover;
   background-position: center;
   height: 15vh;
@@ -271,7 +271,7 @@ nav {
 }
 
 .img-hotel-du-port {
-  background-image: url("../assets/hebergements-marseille/hotel-du-port.jpg");
+  background-image: url('../assets/hebergements-marseille/hotel-du-port.jpg');
   background-size: cover;
   background-position: center;
   height: 15vh;
@@ -280,7 +280,7 @@ nav {
 }
 
 .img-hotel-les-mouettes {
-  background-image: url("../assets/hebergements-marseille/hotel-les-mouettes.jpg");
+  background-image: url('../assets/hebergements-marseille/hotel-les-mouettes.jpg');
   background-size: cover;
   background-position: center;
   height: 15vh;
@@ -289,7 +289,7 @@ nav {
 }
 
 .img-hotel-la-mer {
-  background-image: url("../assets/hebergements-marseille/hotel-la-mer.jpg");
+  background-image: url('../assets/hebergements-marseille/hotel-la-mer.jpg');
   background-size: cover;
   background-position: center;
   height: 15vh;
@@ -298,7 +298,7 @@ nav {
 }
 
 .img-auberge-panier {
-  background-image: url("../assets/hebergements-marseille/auberge-le-panier.jpg");
+  background-image: url('../assets/hebergements-marseille/auberge-le-panier.jpg');
   background-size: cover;
   background-position: center;
   height: 15vh;
@@ -307,7 +307,7 @@ nav {
 }
 
 .img-hotel-amina {
-  background-image: url("../assets/hebergements-marseille/hotel-chez-amina.jpg");
+  background-image: url('../assets/hebergements-marseille/hotel-chez-amina.jpg');
   background-size: cover;
   background-position: center;
   height: 15vh;
@@ -318,7 +318,7 @@ nav {
 /* MOST POPULAR IMAGES PROPERTIES */
 
 .img-hotel-soleil-matin {
-  background-image: url("../assets/les-plus-populaires/hotel-soleil-du-matin.jpg");
+  background-image: url('../assets/les-plus-populaires/hotel-soleil-du-matin.jpg');
   background-size: cover;
   background-position: center;
   height: 20vh;
@@ -327,7 +327,7 @@ nav {
 }
 
 .img-hotes-coeur-eau {
-  background-image: url("../assets/les-plus-populaires/hotes-au-coeur-de-leau.jpg");
+  background-image: url('../assets/les-plus-populaires/hotes-au-coeur-de-leau.jpg');
   background-size: cover;
   background-position: center;
   height: 20vh;
@@ -336,7 +336,7 @@ nav {
 }
 
 .img-hotel-bleu-blanc {
-  background-image: url("../assets/les-plus-populaires/hotel-tout-bleu-et-blanc.jpg");
+  background-image: url('../assets/les-plus-populaires/hotel-tout-bleu-et-blanc.jpg');
   background-size: cover;
   background-position: center;
   height: 20vh;
@@ -345,5 +345,96 @@ nav {
 }
 
 /* ACTIVITIES CSS */
+
+.activities {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.activities-block {
+  height: 600px;
+  width: 100%;
+}
+
+.activities-block-smalls {
+  height: 600px;
+  width: 23%;
+}
+
+.activity {
+  width: 23%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+
+.activity-smalls {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+
+.activity-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 95%;
+  padding-left: 5%;
+}
+
+/* ACTIVITIES IMAGES PROPERTIES */
+
+.img-vieux-port {
+  background-image: url('../assets/activites-marseille/vieux-port.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 530px;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.img-fort-pomegues {
+  background-image: url('../assets/activites-marseille/fort-pomegues.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.img-iles-frioul {
+  background-image: url('../assets/activites-marseille/iles-frioul.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.img-parc-calanques {
+  background-image: url('../assets/activites-marseille/parc-calanques.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 530px;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.img-notre-dame-garde {
+  background-image: url('../assets/activites-marseille/notre-dame-garde.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 170px;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.img-parc-longchamp {
+  background-image: url('../assets/activites-marseille/parc-longchamp.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
 
 /* FOOTER CSS */
