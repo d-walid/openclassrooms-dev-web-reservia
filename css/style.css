@@ -440,7 +440,7 @@ nav {
 /* FOOTER CSS */
 
 .footer-container {
-  height: 250px;
+  height: 210px;
 }
 
 .footer-desc {
@@ -453,4 +453,11 @@ nav {
 
 .help-desc {
   margin-right: 25%;
+}
+
+.footer-desc a {
+  color: black;
+  display: flex;
+  margin-bottom: 10px;
+  text-decoration: none;
 }
