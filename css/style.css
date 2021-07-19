@@ -438,3 +438,19 @@ nav {
 }
 
 /* FOOTER CSS */
+
+.footer-container {
+  height: 250px;
+}
+
+.footer-desc {
+  height: 150px;
+}
+
+.about-desc {
+  margin-left: 2%;
+}
+
+.help-desc {
+  margin-right: 25%;
+}
