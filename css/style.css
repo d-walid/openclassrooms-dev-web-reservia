@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
-* {
+body {
   font-family: 'Raleway', sans-serif;
+}
+
+h2,
+h4 {
+  font-weight: 800;
 }
 
 /* GENERAL COLORS */
@@ -152,13 +157,12 @@ nav {
   align-items: center;
 }
 
-.filter-container h4 {
-  margin-right: 3vh;
+.filter-margin {
+  margin-top: 10px;
 }
 
-.filter-margin {
-  margin-top: 40px;
-  margin-bottom: 40px;
+.filter-container h4 {
+  margin-right: 3vh;
 }
 
 .filter-icon {
@@ -198,6 +202,8 @@ nav {
 .informations {
   display: flex;
   align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .icon-informations {
@@ -206,6 +212,7 @@ nav {
   height: 20px;
   border-radius: 25px;
   border: 2px solid #f2f2f2;
+  margin-right: 3px;
 }
 
 /* ACCOMODATIONS CSS */
@@ -227,9 +234,9 @@ nav {
 
 .accomodation {
   background-color: white;
-  width: 27%;
+  width: 30%;
   height: auto;
-  padding: 1%;
+  padding: 3px;
   border-radius: 20px;
 }
 
@@ -240,6 +247,9 @@ nav {
 
 .accomodation-desc {
   width: 90%;
+}
+
+.accomodations-display-more {
 }
 
 /* MOST POPULAR CSS */
@@ -261,6 +271,8 @@ nav {
 }
 
 .most-popular {
+  display: flex;
+  align-items: center;
   background-color: white;
   padding: 1% 0% 1% 1%;
   border-radius: 20px;
@@ -277,8 +289,8 @@ nav {
 }
 
 .most-popular-desc {
-  width: 60%;
-  padding-left: 10%;
+  padding-left: 5%;
+  width: 40%;
 }
 
 /* ACCOMODATIONS IMAGES PROPERTIES */
