@@ -84,7 +84,9 @@ nav {
 }
 
 .nav-links {
-  width: 35%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .nav-link {
@@ -95,6 +97,10 @@ nav {
 .nav-links a {
   font-weight: bold;
   text-decoration: none;
+}
+
+.nav-accomodation-activity {
+  margin-left: 70%;
 }
 
 .nav-border {
@@ -157,12 +163,12 @@ nav {
   align-items: center;
 }
 
-.filter-margin {
-  margin-top: 10px;
-}
-
 .filter-container h4 {
   margin-right: 3vh;
+}
+
+.filter-margin {
+  margin-top: 10px;
 }
 
 .filter-icon {
@@ -247,9 +253,6 @@ nav {
 
 .accomodation-desc {
   width: 90%;
-}
-
-.accomodations-display-more {
 }
 
 /* MOST POPULAR CSS */
@@ -504,4 +507,9 @@ nav {
   display: flex;
   margin-bottom: 10px;
   text-decoration: none;
+}
+
+/* RESPONSIVE PROPERTIES */
+
+@media screen and (max-width: 1280px) {
 }
