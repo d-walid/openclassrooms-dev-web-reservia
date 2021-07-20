@@ -18,6 +18,14 @@
   background-color: #deebff;
 }
 
+.grey-color-star {
+  color: #f2f2f2;
+}
+
+.blue-color-star {
+  color: #0065fc;
+}
+
 /* GENERAL FLEX */
 
 .flex-center {
