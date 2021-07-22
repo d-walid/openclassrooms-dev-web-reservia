@@ -9,7 +9,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <title>Réservia</title>
+    <title>Réservia - Page d'accueil</title>
   </head>
   <body>
     <!-- HEADER-->
@@ -54,23 +54,29 @@
     </div>
 
     <!-- FILTERS -->
-    <div class="filter-container filter-margin">
+    <div class="filter-container filter-margin filter-mobile">
       <h4>Filtres</h4>
-      <div class="flex-between filter-text-icon">
-        <i class="fas fa-money-bill-wave filter-icon flex-center"></i>
-        <div class="flex-center filter-text">Économique</div>
+
+      <div class="flex-around">
+        <div class="flex-between filter-text-icon">
+          <i class="fas fa-money-bill-wave filter-icon flex-center"></i>
+          <div class="flex-center filter-text">Économique</div>
+        </div>
+        <div class="flex-between filter-text-icon">
+          <i class="fas fa-child filter-icon flex-center"></i>
+          <div class="flex-center filter-text">Familial</div>
+        </div>
       </div>
-      <div class="flex-between filter-text-icon">
-        <i class="fas fa-child filter-icon flex-center"></i>
-        <div class="flex-center filter-text">Familial</div>
-      </div>
-      <div class="flex-between filter-text-icon">
-        <i class="fas fa-heart filter-icon flex-center"></i>
-        <div class="flex-center filter-text">Romantique</div>
-      </div>
-      <div class="flex-between filter-text-icon">
-        <i class="fas fa-dog filter-icon flex-center"></i>
-        <div class="flex-center filter-text">Animaux autorisés</div>
+
+      <div class="flex-around filter-mobile">
+        <div class="flex-between filter-text-icon">
+          <i class="fas fa-heart filter-icon flex-center"></i>
+          <div class="flex-center filter-text">Romantique</div>
+        </div>
+        <div class="flex-between filter-text-icon">
+          <i class="fas fa-dog filter-icon flex-center"></i>
+          <div class="flex-center filter-text">Animaux autorisés</div>
+        </div>
       </div>
     </div>
 
@@ -83,7 +89,7 @@
     </div>
 
     <!-- SECTION -->
-    <section class="flex-around">
+    <section class="flex-around accomodations-all">
       <div
         class="
           accomodations-marseille

@@ -225,7 +225,7 @@ nav {
 
 .accomodations-marseille {
   flex: 2;
-  height: 85vh;
+  height: 95vh;
   margin-right: 2vh;
   border-radius: 10px;
 }
@@ -259,7 +259,7 @@ nav {
 
 .most-popular-marseille {
   flex: 1;
-  height: 85vh;
+  height: 95vh;
   margin-left: 2vh;
   border-radius: 10px;
 }
@@ -511,5 +511,77 @@ nav {
 
 /* RESPONSIVE PROPERTIES */
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1295px) {
+  .nav-accomodation-activity {
+    margin-left: 35%;
+  }
+
+  .accomodation-desc {
+    min-height: 150px;
+  }
+
+  .accomodation {
+    min-height: auto;
+  }
+
+  .most-popular-marseille {
+    min-height: auto;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 667px) {
+  /* FILTERS RESPONSIVE MOBILE */
+  .filter-mobile {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .filter-text-icon {
+    margin-bottom: 10px;
+  }
+
+  /* MOST POPULAR RESPONSIVE MOBILE */
+
+  .most-popular-marseille {
+    flex: none;
+    margin-left: 0px;
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  /* ACCOMODATIONS RESPONSIVE MOBILE */
+
+  .accomodations-all {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .accomodations-marseille {
+    margin-top: 30px;
+    background: none;
+    height: auto;
+  }
+
+  .accomodations-block {
+    margin-top: 40px;
+  }
+
+  .accomodation {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .accomodation-desc {
+    min-height: auto;
+  }
+
+  .accomodations-first-line {
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+  .accomodations-second-line {
+    flex-direction: column;
+    margin-top: 0px;
+  }
 }
