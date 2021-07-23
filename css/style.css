@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 h2,
@@ -72,53 +72,64 @@ h4 {
 
 /* LOGO CSS */
 
-.logo-reservia img {
-  width: 13vh;
-  height: 6vh;
+header {
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.header-container {
+  display: flex;
+}
+
+.logo-reservia-container {
+  flex: 1;
+  margin-top: 30px;
 }
 
 /* NAV CSS */
 
-nav {
-  height: 12vh;
-}
-
-.nav-links {
+.nav-container {
   display: flex;
-  justify-content: center;
-  width: 100%;
 }
 
-.nav-link {
-  width: 15vh;
-  height: 10vh;
+.ul-container {
+  display: flex;
 }
 
-.nav-links a {
-  font-weight: bold;
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  padding-top: 50px;
+}
+
+nav li a {
+  padding-top: 50px;
+}
+
+nav li a:hover {
+  color: #0065fc;
+  border-top: 2px solid #0065fc;
+  padding-top: 42px;
+}
+
+nav a {
+  padding: 40px 30px 0px;
+}
+
+a {
   text-decoration: none;
+  color: inherit;
 }
 
-.nav-accomodation-activity {
-  margin-left: 70%;
-}
-
-.nav-border {
-  border-top: solid 1px #0065fc;
-}
-
-#accomodation-link {
+.register {
   color: #0065fc;
+  padding: 50px 40px 0;
+  font-weight: bold;
 }
-
-#activities-link {
-  color: black;
-}
-
-#register-link {
-  color: #0065fc;
-}
-
 /* TITLE CSS */
 
 .title-container h3 {
@@ -269,10 +280,6 @@ nav {
   padding-right: 20px;
 }
 
-.most-popular-blocks {
-  padding-top: 10px;
-}
-
 .most-popular {
   display: flex;
   align-items: center;
@@ -280,6 +287,8 @@ nav {
   padding: 1% 0% 1% 1%;
   border-radius: 20px;
   height: auto;
+  width: 550px;
+  padding-left: 20px;
 }
 
 .most-popular:hover {
@@ -292,14 +301,27 @@ nav {
 }
 
 .most-popular-desc {
-  padding-left: 5%;
-  width: 40%;
+  padding-left: 20px;
+  padding-top: 20px;
+  width: 50%;
+}
+
+.most-popular-desc h4 {
+  margin-top: -20px;
+  margin-bottom: -10px;
+}
+
+.most-popular-stars {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 20px;
+  font-size: 13px;
 }
 
 /* ACCOMODATIONS IMAGES PROPERTIES */
 
 .img-auberge-cannebiere {
-  background-image: url('../assets/hebergements-marseille/auberge-la-cannebiere.jpg');
+  background-image: url("../assets/hebergements-marseille/auberge-la-cannebiere.jpg");
   background-size: cover;
   background-position: center;
   height: 15vh;
@@ -308,7 +330,7 @@ nav {
 }
 
 .img-hotel-du-port {
-  background-image: url('../assets/hebergements-marseille/hotel-du-port.jpg');
+  background-image: url("../assets/hebergements-marseille/hotel-du-port.jpg");
   background-size: cover;
   background-position: center;
   height: 15vh;
@@ -317,7 +339,7 @@ nav {
 }
 
 .img-hotel-les-mouettes {
-  background-image: url('../assets/hebergements-marseille/hotel-les-mouettes.jpg');
+  background-image: url("../assets/hebergements-marseille/hotel-les-mouettes.jpg");
   background-size: cover;
   background-position: center;
   height: 15vh;
@@ -326,7 +348,7 @@ nav {
 }
 
 .img-hotel-la-mer {
-  background-image: url('../assets/hebergements-marseille/hotel-la-mer.jpg');
+  background-image: url("../assets/hebergements-marseille/hotel-la-mer.jpg");
   background-size: cover;
   background-position: center;
   height: 15vh;
@@ -335,7 +357,7 @@ nav {
 }
 
 .img-auberge-panier {
-  background-image: url('../assets/hebergements-marseille/auberge-le-panier.jpg');
+  background-image: url("../assets/hebergements-marseille/auberge-le-panier.jpg");
   background-size: cover;
   background-position: center;
   height: 15vh;
@@ -344,7 +366,7 @@ nav {
 }
 
 .img-hotel-amina {
-  background-image: url('../assets/hebergements-marseille/hotel-chez-amina.jpg');
+  background-image: url("../assets/hebergements-marseille/hotel-chez-amina.jpg");
   background-size: cover;
   background-position: center;
   height: 15vh;
@@ -355,29 +377,29 @@ nav {
 /* MOST POPULAR IMAGES PROPERTIES */
 
 .img-hotel-soleil-matin {
-  background-image: url('../assets/les-plus-populaires/hotel-soleil-du-matin.jpg');
+  background-image: url("../assets/les-plus-populaires/hotel-soleil-du-matin.jpg");
   background-size: cover;
   background-position: center;
   height: 20vh;
-  width: 30%;
+  width: 35%;
   border-radius: 15px 0px 0px 15px;
 }
 
 .img-hotes-coeur-eau {
-  background-image: url('../assets/les-plus-populaires/hotes-au-coeur-de-leau.jpg');
+  background-image: url("../assets/les-plus-populaires/hotes-au-coeur-de-leau.jpg");
   background-size: cover;
   background-position: center;
   height: 20vh;
-  width: 30%;
+  width: 35%;
   border-radius: 15px 0px 0px 15px;
 }
 
 .img-hotel-bleu-blanc {
-  background-image: url('../assets/les-plus-populaires/hotel-tout-bleu-et-blanc.jpg');
+  background-image: url("../assets/les-plus-populaires/hotel-tout-bleu-et-blanc.jpg");
   background-size: cover;
   background-position: center;
   height: 20vh;
-  width: 30%;
+  width: 35%;
   border-radius: 15px 0px 0px 15px;
 }
 
@@ -431,7 +453,7 @@ nav {
 /* ACTIVITIES IMAGES PROPERTIES */
 
 .img-vieux-port {
-  background-image: url('../assets/activites-marseille/vieux-port.jpg');
+  background-image: url("../assets/activites-marseille/vieux-port.jpg");
   background-size: cover;
   background-position: center;
   height: 530px;
@@ -440,7 +462,7 @@ nav {
 }
 
 .img-fort-pomegues {
-  background-image: url('../assets/activites-marseille/fort-pomegues.jpg');
+  background-image: url("../assets/activites-marseille/fort-pomegues.jpg");
   background-size: cover;
   background-position: center;
   height: 250px;
@@ -449,7 +471,7 @@ nav {
 }
 
 .img-iles-frioul {
-  background-image: url('../assets/activites-marseille/iles-frioul.jpg');
+  background-image: url("../assets/activites-marseille/iles-frioul.jpg");
   background-size: cover;
   background-position: center;
   height: 150px;
@@ -458,7 +480,7 @@ nav {
 }
 
 .img-parc-calanques {
-  background-image: url('../assets/activites-marseille/parc-calanques.jpg');
+  background-image: url("../assets/activites-marseille/parc-calanques.jpg");
   background-size: cover;
   background-position: center;
   height: 530px;
@@ -467,7 +489,7 @@ nav {
 }
 
 .img-notre-dame-garde {
-  background-image: url('../assets/activites-marseille/notre-dame-garde.jpg');
+  background-image: url("../assets/activites-marseille/notre-dame-garde.jpg");
   background-size: cover;
   background-position: center;
   height: 170px;
@@ -476,7 +498,7 @@ nav {
 }
 
 .img-parc-longchamp {
-  background-image: url('../assets/activites-marseille/parc-longchamp.jpg');
+  background-image: url("../assets/activites-marseille/parc-longchamp.jpg");
   background-size: cover;
   background-position: center;
   height: 200px;
@@ -511,25 +533,43 @@ nav {
 
 /* RESPONSIVE PROPERTIES */
 
-@media screen and (max-width: 1295px) {
-  .nav-accomodation-activity {
-    margin-left: 35%;
+/* MOBILE RESPONSIVE PROPERTIES */
+@media only screen and (max-width: 767px) {
+  header {
+    margin: 0;
+    flex-direction: column;
   }
 
-  .accomodation-desc {
-    min-height: 150px;
+  nav {
+    order: 3;
   }
 
-  .accomodation {
-    min-height: auto;
+  nav ul {
+    width: 100%;
   }
 
-  .most-popular-marseille {
-    min-height: auto;
+  nav li {
+    width: 50%;
+    text-align: center;
+    padding: 10px 0;
   }
-}
 
-@media only screen and (device-width: 375px) and (device-height: 667px) {
+  nav li a:hover {
+    border-top: none;
+    border-bottom-color: #0065fc;
+  }
+
+  .register {
+    position: relative;
+    align-self: flex-end;
+    padding: 0;
+    margin: 0px 20px 0px 0px;
+    bottom: 30px;
+  }
+
+  .logo-reservia-container {
+    margin-left: 20px;
+  }
   /* FILTERS RESPONSIVE MOBILE */
   .filter-mobile {
     flex-direction: column;
@@ -547,6 +587,22 @@ nav {
     margin-left: 0px;
     width: 100%;
     margin-left: 10px;
+  }
+
+  .most-popular-first-two {
+    margin-bottom: 10px;
+  }
+
+  .most-popular-stars {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 20px;
+    font-size: 12px;
+  }
+
+  .most-popular-desc {
+    padding-top: 20px;
+    padding-left: 20px;
   }
 
   /* ACCOMODATIONS RESPONSIVE MOBILE */
