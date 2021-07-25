@@ -21,8 +21,8 @@
       <!-- NAV -->
       <nav class="nav-container">
         <ul class="ul-container">
-          <li><a href="#">Hébergements</a></li>
-          <li><a href="#">Activités</a></li>
+          <li><a href="#hebergements">Hébergements</a></li>
+          <li><a href="#activites">Activités</a></li>
         </ul>
       </nav>
       <a href="" class="register">S'inscrire</a>
@@ -92,7 +92,7 @@
           flex-around-column
         "
       >
-        <h2>Hébergements à Marseille</h2>
+        <h2 id="hebergements">Hébergements à Marseille</h2>
 
         <!-- FIRST LINE OF ACCOMODATIONS BLOCK -->
         <div class="accomodations-first-line flex-between">
@@ -101,7 +101,7 @@
             <div class="accomodation-desc">
               <h4>Auberge la Cannebière</h4>
               <p>Nuit à partir de <b>25€</b></p>
-              <div>
+              <div class="accomodation-stars">
                 <i class="fas fa-star blue-color-star"></i>
                 <i class="fas fa-star blue-color-star"></i>
                 <i class="fas fa-star blue-color-star"></i>
@@ -116,7 +116,7 @@
             <div class="accomodation-desc">
               <h4>Hôtel du port</h4>
               <p>Nuit à partir de 52<b>€</b></p>
-              <div>
+              <div class="accomodation-stars">
                 <i class="fas fa-star blue-color-star"></i>
                 <i class="fas fa-star blue-color-star"></i>
                 <i class="fas fa-star blue-color-star"></i>
@@ -131,7 +131,7 @@
             <div class="accomodation-desc">
               <h4>Hôtel Les mouettes</h4>
               <p>Nuit à partir de 76<b>€</b></p>
-              <div>
+              <div class="accomodation-stars">
                 <i class="fas fa-star blue-color-star"></i>
                 <i class="fas fa-star blue-color-star"></i>
                 <i class="fas fa-star blue-color-star"></i>
@@ -149,7 +149,7 @@
             <div class="accomodation-desc">
               <h4>Hôtel de la mer</h4>
               <p>Nuit à partir de 46<b>€</b></p>
-              <div>
+              <div class="accomodation-stars">
                 <i class="fas fa-star blue-color-star"></i>
                 <i class="fas fa-star blue-color-star"></i>
                 <i class="fas fa-star blue-color-star"></i>
@@ -164,7 +164,7 @@
             <div class="accomodation-desc">
               <h4>Auberge Le Panier</h4>
               <p>Nuit à partir de <b>23€</b></p>
-              <div>
+              <div class="accomodation-stars">
                 <i class="fas fa-star blue-color-star"></i>
                 <i class="fas fa-star blue-color-star"></i>
                 <i class="fas fa-star blue-color-star"></i>
@@ -179,7 +179,7 @@
             <div class="accomodation-desc">
               <h4>Hôtel chez Amina</h4>
               <p>Nuit à partir de 96<b>€</b></p>
-              <div>
+              <div class="accomodation-stars">
                 <i class="fas fa-star blue-color-star"></i>
                 <i class="fas fa-star blue-color-star"></i>
                 <i class="fas fa-star blue-color-star"></i>
@@ -194,12 +194,12 @@
 
       <!-- MOST POPULAR BLOCKS -->
       <div class="most-popular-marseille grey-color most-popular-block">
-        <div class="flex-between">
+        <div class="flex-between most-popular-title">
           <h2>Les plus populaires</h2>
           <div><i class="fas fa-chart-line fa-2x"></i></div>
         </div>
 
-        <div class="flex-around-column most-popular-blocks">
+        <div class="most-popular-all-three">
           <div class="most-popular most-popular-first-two">
             <div class="img-hotel-soleil-matin"></div>
             <div class="most-popular-desc">
@@ -249,7 +249,7 @@
     </section>
 
     <section class="activities">
-      <h3>Activités à Marseille</h3>
+      <h3 id="activites">Activités à Marseille</h3>
 
       <!-- ! Image 1 - medium size -->
       <div class="activities-block flex-between">

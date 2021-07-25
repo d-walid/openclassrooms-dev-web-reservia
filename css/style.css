@@ -3,7 +3,6 @@
 body {
   font-family: "Raleway", sans-serif;
 }
-
 h2,
 h4 {
   font-weight: 800;
@@ -113,7 +112,7 @@ nav li a {
 nav li a:hover {
   color: #0065fc;
   border-top: 2px solid #0065fc;
-  padding-top: 42px;
+  padding-top: 55px;
 }
 
 nav a {
@@ -236,7 +235,7 @@ a {
 
 .accomodations-marseille {
   flex: 2;
-  height: 95vh;
+  height: 80vh;
   margin-right: 2vh;
   border-radius: 10px;
 }
@@ -266,11 +265,27 @@ a {
   width: 90%;
 }
 
+.accomodation-desc h4 {
+  margin-top: 10px;
+  margin-bottom: -10px;
+  font-size: 18px;
+}
+
+.accomodation-desc p {
+  margin-bottom: 7px;
+  font-size: 17px;
+}
+
+.accomodation-stars {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 /* MOST POPULAR CSS */
 
 .most-popular-marseille {
   flex: 1;
-  height: 95vh;
+  height: 80vh;
   margin-left: 2vh;
   border-radius: 10px;
 }
@@ -288,7 +303,6 @@ a {
   border-radius: 20px;
   height: auto;
   width: 550px;
-  padding-left: 20px;
 }
 
 .most-popular:hover {
@@ -301,20 +315,18 @@ a {
 }
 
 .most-popular-desc {
+  font-size: 17px;
   padding-left: 20px;
-  padding-top: 20px;
-  width: 50%;
+  padding-top: -20px;
+  width: 30%;
 }
 
 .most-popular-desc h4 {
-  margin-top: -20px;
+  margin-top: -50px;
   margin-bottom: -10px;
 }
 
 .most-popular-stars {
-  display: flex;
-  justify-content: flex-start;
-  padding-top: 20px;
   font-size: 13px;
 }
 
@@ -570,6 +582,7 @@ a {
   .logo-reservia-container {
     margin-left: 20px;
   }
+
   /* FILTERS RESPONSIVE MOBILE */
   .filter-mobile {
     flex-direction: column;
@@ -580,36 +593,56 @@ a {
     margin-bottom: 10px;
   }
 
-  /* MOST POPULAR RESPONSIVE MOBILE */
-
-  .most-popular-marseille {
-    flex: none;
-    margin-left: 0px;
-    width: 100%;
-    margin-left: 10px;
+  .filter-text-icon:hover > .filter-icon {
+    background-color: #0065fc;
+    color: white;
+    cursor: pointer;
   }
 
-  .most-popular-first-two {
+  .filter-text-icon:hover > .filter-text {
+    color: #0065fc;
+    cursor: pointer;
+  }
+
+  /* MOST POPULAR RESPONSIVE MOBILE */
+
+  .most-popular {
+    width: 90%;
+    margin-left: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 1px #f2f2f2;
+  }
+
+  .most-popular-title {
+    padding-left: 10px;
+  }
+
+  .most-popular-desc {
+    width: 48%;
+    padding-top: 50px;
+  }
+
+  .most-popular-desc p {
+    font-size: 15px;
     margin-bottom: 10px;
   }
 
   .most-popular-stars {
-    display: flex;
-    justify-content: flex-start;
-    padding-top: 20px;
-    font-size: 12px;
+    padding-top: 25px;
   }
 
-  .most-popular-desc {
+  .most-popular-marseille {
     padding-top: 20px;
-    padding-left: 20px;
+    padding-bottom: 35px;
+    border-radius: 0px;
+    margin-left: 0;
+    width: 100%;
   }
 
   /* ACCOMODATIONS RESPONSIVE MOBILE */
 
   .accomodations-all {
     flex-direction: column-reverse;
-    width: 100%;
   }
 
   .accomodations-marseille {
