@@ -686,4 +686,58 @@ a {
     flex-direction: column;
     margin-top: 0px;
   }
+
+  .activities-block {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .activity {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .activity-smalls {
+    margin-bottom: 25px;
+  }
+
+  .activities-block-smalls {
+    width: 100%;
+    height: auto;
+  }
+
+  .img-vieux-port,
+  .img-fort-pomegues,
+  .img-iles-frioul,
+  .img-parc-calanques,
+  .img-notre-dame-garde,
+  .img-parc-longchamp {
+    height: 125px;
+  }
+
+  footer {
+    width: 110%;
+    margin-left: -10px;
+  }
+
+  .footer-container {
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-desc {
+    margin-left: 20px;
+  }
+
+  .about-desc {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .help-desc {
+    margin-right: 0px;
+    margin-top: -10px;
+  }
 }
