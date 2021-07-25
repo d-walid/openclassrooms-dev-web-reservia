@@ -2,6 +2,9 @@
 
 body {
   font-family: "Raleway", sans-serif;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 }
 h2,
 h4 {
@@ -291,8 +294,8 @@ a {
 }
 
 .most-popular-block {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .most-popular {
@@ -613,6 +616,14 @@ a {
     box-shadow: 10px 10px 10px 1px #f2f2f2;
   }
 
+  .most-popular-marseille {
+    padding-top: 20px;
+    padding-bottom: 35px;
+    border-radius: 0px;
+    margin-left: 0;
+    width: 100%;
+  }
+
   .most-popular-title {
     padding-left: 10px;
   }
@@ -631,14 +642,6 @@ a {
     padding-top: 25px;
   }
 
-  .most-popular-marseille {
-    padding-top: 20px;
-    padding-bottom: 35px;
-    border-radius: 0px;
-    margin-left: 0;
-    width: 100%;
-  }
-
   /* ACCOMODATIONS RESPONSIVE MOBILE */
 
   .accomodations-all {
@@ -649,19 +652,29 @@ a {
     margin-top: 30px;
     background: none;
     height: auto;
+    margin-right: 0;
+    width: 100%;
   }
 
   .accomodations-block {
     margin-top: 40px;
+    padding: 0;
+    margin-bottom: 30px;
   }
 
   .accomodation {
-    width: 90%;
-    margin-bottom: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 10px 1px #f2f2f2;
   }
 
   .accomodation-desc {
     min-height: auto;
+    margin-right: 20px;
+  }
+
+  .accomodation-stars {
+    font-size: 15px;
   }
 
   .accomodations-first-line {
