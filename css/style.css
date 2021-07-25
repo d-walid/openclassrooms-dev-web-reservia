@@ -556,6 +556,10 @@ a {
     flex-direction: column;
   }
 
+  body {
+    margin-right: auto;
+  }
+
   nav {
     order: 3;
   }
