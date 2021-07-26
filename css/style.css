@@ -7,6 +7,16 @@ body {
   margin-right: auto;
   margin-bottom: 0;
 }
+
+.footer-container {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 h2,
 h4 {
   font-weight: 800;
