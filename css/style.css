@@ -914,6 +914,10 @@ a {
     width: 100%;
   }
 
+  .accomodations-marseille h2 {
+    padding-left: 10px;
+  }
+
   .accomodations-block {
     margin-top: 40px;
     padding: 0;
@@ -953,6 +957,10 @@ a {
   .img-hotel-amina {
     width: 98%;
     height: 17vh;
+  }
+
+  .accomodations-display-more {
+    padding-left: 10px;
   }
 
   /* ACTIVITIES RESPONSIVE MOBILE */
