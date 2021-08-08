@@ -155,7 +155,8 @@ a {
   align-items: center;
   width: 47vh;
   border-radius: 0.9vh;
-  border: 1px solid #f2f2f2;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
 }
 
 .icon-size {
@@ -338,7 +339,7 @@ a {
 .most-popular-desc {
   font-size: 17px;
   padding-left: 20px;
-  padding-top: -20px;
+  margin-top: -20px;
   width: 30%;
 }
 
@@ -777,11 +778,15 @@ a {
     width: 50%;
     text-align: center;
     padding: 10px 0;
+    border-bottom: 3px solid #f2f2f2;
+  }
+
+  nav li:hover {
+    border-bottom: 3px solid #0065fc;
   }
 
   nav li a:hover {
     border-top: none;
-    border-bottom-color: #0065fc;
   }
 
   .register {
@@ -799,25 +804,37 @@ a {
   /* SEARCH RESPONSIVE MOBILE */
 
   .search-container {
+    padding-left: 10px;
+    padding-right: 30px;
+    width: auto;
     border: none;
   }
 
+  .input-container {
+    width: 300px;
+    height: 46px;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+  }
+
   .search-input-container {
-    height: 7vh;
-    border: 1px solid #f2f2f2;
-    margin-right: 30px;
+    width: 245px;
+    height: 46px;
   }
 
   .icon-size {
-    width: 7vh;
+    width: 8vh;
     height: 7vh;
   }
 
   .search {
+    position: relative;
+    z-index: 1;
+    right: 10px;
     font-size: 0;
-    width: 7vh;
+    width: 8vh;
     height: 7vh;
-    border-radius: 10px;
+    border-radius: 12px;
   }
 
   .search::before {
@@ -942,11 +959,15 @@ a {
   .accomodations-first-line {
     flex-direction: column;
     margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .accomodations-second-line {
     flex-direction: column;
     margin-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .img-auberge-cannebiere,
@@ -975,7 +996,7 @@ a {
   }
 
   .activity {
-    width: 95%;
+    width: 90%;
     margin-bottom: 25px;
   }
 
@@ -984,7 +1005,7 @@ a {
   }
 
   .activities-block-smalls {
-    width: 95%;
+    width: 90%;
     height: auto;
   }
 
