@@ -2,10 +2,12 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 0;
+}
+
+.body-container {
+  margin: 0 auto;
+  max-width: 100rem;
 }
 
 .footer-container {
@@ -116,7 +118,7 @@ ul {
 }
 
 nav li {
-  padding-top: 50px;
+  padding-top: 58px;
 }
 
 nav li a {
@@ -140,7 +142,7 @@ a {
 
 .register {
   color: #0065fc;
-  padding: 50px 40px 0;
+  padding: 58px 40px 0;
   font-weight: bold;
 }
 /* TITLE CSS */
@@ -308,6 +310,7 @@ a {
 .most-popular-marseille {
   flex: 1;
   height: 80vh;
+  width: 600px;
   margin-left: 2vh;
   border-radius: 10px;
 }
@@ -703,7 +706,7 @@ a {
   }
 
   .accomodation-desc {
-    min-height: auto;
+    max-height: 110px;
     margin-right: 20px;
   }
 
