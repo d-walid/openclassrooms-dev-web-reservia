@@ -153,28 +153,28 @@ a {
 
 .search-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  width: 47vh;
+  width: 600px;
   border-radius: 0.9vh;
-  border-top: 1px solid #f2f2f2;
-  border-bottom: 1px solid #f2f2f2;
 }
 
 .icon-size {
-  width: 5vh;
-  height: 5vh;
+  width: 70px;
+  height: 50px;
   border-radius: 15px 0px 0px 15px;
 }
 
 .search-input-container {
-  height: 5vh;
-  width: 26vh;
+  height: 50px;
+  width: 300px;
   font-size: 16px;
   font-weight: bold;
   border: none;
-  padding-left: 1.5vh;
+  padding-left: 10px;
   color: black;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
 }
 
 .search {
@@ -182,8 +182,8 @@ a {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  height: 5vh;
-  width: 16vh;
+  height: 50px;
+  width: 125px;
   background-color: #0065fc;
   color: white;
   font-weight: bold;
@@ -206,8 +206,8 @@ a {
 }
 
 .filter-icon {
-  width: 5vh;
-  height: 5vh;
+  width: 50px;
+  height: 50px;
   border-radius: 35px;
   color: #0065fc;
   background-color: #deebff;
@@ -225,13 +225,13 @@ a {
 }
 
 .filter-text {
-  height: 5vh;
+  height: 50px;
   padding: 0px 25px 0px 25px;
   font-weight: bold;
 }
 
 .filter-text-icon {
-  height: 5vh;
+  height: 50px;
   margin-right: 3vh;
   border: 2px solid #f2f2f2;
   border-radius: 30px;
@@ -807,7 +807,12 @@ a {
   }
 
   .title-container {
-    padding-left: 10px;
+    padding-left: 20px;
+    width: 350px;
+  }
+
+  .title-container h3 {
+    font-size: 25px;
   }
 
   /* SEARCH RESPONSIVE MOBILE */
@@ -815,25 +820,26 @@ a {
   .search-container {
     padding-left: 10px;
     padding-right: 30px;
-    width: auto;
+    width: 760px;
+    height: 60px;
     border: none;
   }
 
   .input-container {
     width: 300px;
-    height: 46px;
+    height: 60px;
     border-top: 1px solid #f2f2f2;
     border-bottom: 1px solid #f2f2f2;
   }
 
   .search-input-container {
     width: 245px;
-    height: 46px;
+    height: 60px;
   }
 
   .icon-size {
-    width: 8vh;
-    height: 7vh;
+    width: 60px;
+    height: 60px;
   }
 
   .search {
@@ -841,8 +847,8 @@ a {
     z-index: 1;
     right: 10px;
     font-size: 0;
-    width: 8vh;
-    height: 7vh;
+    width: 60px;
+    height: 60px;
     border-radius: 12px;
   }
 
