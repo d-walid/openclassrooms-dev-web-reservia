@@ -259,23 +259,28 @@ a {
 
 .accomodations-marseille {
   flex: 2;
-  height: 80vh;
+  height: 670px;
   margin-right: 2vh;
   border-radius: 10px;
+  background-color: #f2f2f2;
 }
 
 .accomodations-first-line {
-  margin-bottom: 15px;
+  margin-bottom: 40px;
+}
+
+.accomodations-second-line {
+  margin-bottom: 40px;
 }
 
 .accomodations-block {
-  padding: 0px 40px 0px 40px;
+  padding: 20px 40px 20px 40px;
 }
 
 .accomodation {
   background-color: white;
   width: 30%;
-  height: auto;
+  height: 200px;
   padding: 3px;
   border-radius: 20px;
 }
@@ -309,24 +314,24 @@ a {
 
 .most-popular-marseille {
   flex: 1;
-  height: 80vh;
   width: 600px;
   margin-left: 2vh;
   border-radius: 10px;
+  background-color: #f2f2f2;
 }
 
 .most-popular-block {
   padding-left: 40px;
   padding-right: 40px;
+  height: 710px;
 }
 
 .most-popular {
   display: flex;
   align-items: center;
   background-color: white;
-  padding: 1% 0% 1% 1%;
   border-radius: 20px;
-  height: auto;
+  height: 180px;
   width: 550px;
 }
 
@@ -417,7 +422,7 @@ a {
   background-image: url("../assets/les-plus-populaires/hotel-soleil-du-matin.jpg");
   background-size: cover;
   background-position: center;
-  height: 20vh;
+  height: 180px;
   width: 35%;
   border-radius: 15px 0px 0px 15px;
 }
@@ -426,7 +431,7 @@ a {
   background-image: url("../assets/les-plus-populaires/hotes-au-coeur-de-leau.jpg");
   background-size: cover;
   background-position: center;
-  height: 20vh;
+  height: 180px;
   width: 35%;
   border-radius: 15px 0px 0px 15px;
 }
@@ -435,7 +440,7 @@ a {
   background-image: url("../assets/les-plus-populaires/hotel-tout-bleu-et-blanc.jpg");
   background-size: cover;
   background-position: center;
-  height: 20vh;
+  height: 180px;
   width: 35%;
   border-radius: 15px 0px 0px 15px;
 }
@@ -639,7 +644,8 @@ a {
 
   .most-popular {
     width: 90%;
-    margin-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 20px;
     box-shadow: 10px 10px 10px 1px #f2f2f2;
   }
@@ -894,7 +900,7 @@ a {
   }
 
   .most-popular-marseille {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 35px;
     border-radius: 0px;
     margin-left: auto;
@@ -920,8 +926,14 @@ a {
     padding-top: 25px;
   }
 
-  /* ACCOMODATIONS RESPONSIVE MOBILE */
+  .img-hotel-soleil-matin,
+  .img-hotes-coeur-eau,
+  .img-hotel-bleu-blanc {
+    width: 40%;
+    height: 180px;
+  }
 
+  /* ACCOMODATIONS RESPONSIVE MOBILE */
   .accomodations-all {
     flex-direction: column-reverse;
   }
@@ -980,7 +992,7 @@ a {
   .img-auberge-panier,
   .img-hotel-amina {
     width: 98%;
-    height: 17vh;
+    height: 400px;
   }
 
   .accomodations-display-more {
