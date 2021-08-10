@@ -808,7 +808,7 @@ a {
 
   .title-container {
     padding-left: 10px;
-    width: 325px;
+    width: auto;
   }
 
   .title-container h3 {
@@ -880,6 +880,12 @@ a {
     height: 40px;
   }
 
+  .filter-text {
+    height: 30px;
+    padding: 0px 15px 0px 25px;
+    font-weight: bold;
+  }
+
   .filter-text-icon:hover > .filter-icon {
     background-color: #0065fc;
     color: white;
@@ -896,6 +902,10 @@ a {
   }
 
   /* MOST POPULAR RESPONSIVE MOBILE */
+
+  .fa-chart-line {
+    padding-right: 10px;
+  }
 
   .most-popular {
     width: 90%;
